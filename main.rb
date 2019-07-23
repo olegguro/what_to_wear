@@ -14,4 +14,3 @@ uniq_suitable_garments =
   suitable_garments.uniq { |garment| garment.type }
 
 uniq_suitable_garments.each { |garment| puts garment }
-
